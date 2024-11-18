@@ -1,0 +1,33 @@
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #000;
+    width: 100%;
+    height: 100px;
+    
+    .esquerda{
+        display: flex;
+        flex-direction: row;
+        margin: 5px 35px;
+        gap: 30px;
+        img{
+            width: 90px;
+        }
+        h1{
+            font: 500 19px 'Roboto';
+            color: #fff;
+            margin-top: 30px;
+        }
+    }
+
+    .direita{
+        margin: 5px 35px;
+
+        h1{
+            font: 500 19px 'Roboto';
+            color: #fff;
+            margin-top: 30px;
+        }
+    }
+}
