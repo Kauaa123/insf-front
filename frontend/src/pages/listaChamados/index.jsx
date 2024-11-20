@@ -35,7 +35,10 @@ export default function Listar() {
             <Cabecalho />
 
         <div className="tabela">
-            <input type="text" placeholder="Filtrar..." value={pesquisa} onChange={e => setPesquisa(e.target.value)} />
+            <div className="input-filtro">
+                 <input type="text" placeholder="Filtrar..." value={pesquisa} onChange={e => setPesquisa(e.target.value)} />
+            </div>
+           
             <table>
                 <thead>
                     <tr>
